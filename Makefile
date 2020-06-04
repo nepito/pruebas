@@ -24,6 +24,6 @@ clean:
 	rm --recursive --force tests/__pycache__
 	rm --recursive --force *.tmp
 
-tests: tests_data
-	pytest --verbos
+tests:
+	pytest --verbose tests/pytest/
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary')"
