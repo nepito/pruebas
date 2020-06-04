@@ -18,11 +18,7 @@ all: tests
 # V. Reglas del resto de los phonies
 # ===========================================================================
 clean:
-	rm --recursive --force data
-	rm --recursive --force reports/tables
-	rm --recursive --force tests/data
-	rm --recursive --force tests/__pycache__
-	rm --recursive --force *.tmp
+	rm --recursive --force tests/**/__pycache__
 
 tests:
 	pytest --verbose tests/pytest/
