@@ -26,4 +26,5 @@ clean:
 
 tests:
 	pytest --verbose tests/pytest/
+	pytest --verbose tests/bashtest/
 	R -e "testthat::test_dir('tests/testthat/', report = 'summary')"
