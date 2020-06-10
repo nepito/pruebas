@@ -18,6 +18,7 @@ all: tests
 # V. Reglas del resto de los phonies
 # ===========================================================================
 clean:
+	rm --recursive --force pruebas/__pycache__
 	rm --recursive --force tests/**/__pycache__
 
 tests:
