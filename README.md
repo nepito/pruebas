@@ -45,5 +45,9 @@ We need to make a change to a rather long, complicated function. Luckily, we fin
 es poder modificar tu código sin tener miedo. 
 
 ## Desventajas
-Software testing is a combinatorial problem. For example, every Boolean decision statement requires at least two tests: one with an outcome of "true" and one with an outcome of "false". As a result, for every line of code written, programmers often need 3 to 5 lines of test code.[11] This obviously takes time and its investment may not be worth the effort. There are problems that cannot easily be tested at all – for example those that are nondeterministic or involve multiple threads. In addition, code for a unit test is likely to be at least as buggy as the code it is testing.[](https://en.wikipedia.org/wiki/Unit_testing#Limitations_and_disadvantages)
-
+Las pruebas de código son un problema combinado. Por ejemplo, para cada decisión boolean requerimos
+al menos dos dos pruebas: una para la salida verdadera y otra para la falsa. Así, para cada linea de 
+código, los programadores necesitan tres o cinco lineas de 
+[pruebas](https://en.wikipedia.org/wiki/Unit_testing#Limitations_and_disadvantages). Esto toma 
+tiempo y su inversión puede no estar a la altura del esfuerzo. Además, el código de las unidades de 
+prueba tienen, al menos, las mismas oportunidades que el código que quieren porbar de tener errores.
