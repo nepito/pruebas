@@ -32,7 +32,6 @@ la misma calidad que el código de implementación sin ningún tipo de duplicaci
 desarrolladores liberan las unidades de prueba para el código en conjunción con que las prueba. Las
 pruebas te permiten los beneficios de tener un código más simple, con la seguridad para 
 refactorizar, con documentación precisa y actualizada y diseños más modulares.(https://en.wikipedia.org/wiki/Unit_testing#Extreme_programming)
-The test code is considered a first class project artifact in that it is maintained at the same quality as the implementation code, with all duplication removed. Developers release unit testing code to the code repository in conjunction with the code it tests. Extreme programming's thorough unit testing allows the benefits mentioned above, such as simpler and more confident code development and refactoring, simplified code integration, accurate documentation, and more modular designs[]
 
 ## TDD
 
@@ -56,8 +55,9 @@ código más limpio y con pruebas que verifique su funcionalidad.
 
 
 
-[Michael Salaverry](https://dev.to/barakplasma/how-i-learned-to-stop-worrying-and-love-tdd-916) menciona cuáles son los puntos divertidos de TDD. Pero lo más importate para él 
-es poder modificar tu código sin tener miedo. 
+[Michael Salaverry](https://dev.to/barakplasma/how-i-learned-to-stop-worrying-and-love-tdd-916) 
+menciona cuáles son los puntos divertidos de TDD. Pero lo más importate para él es poder modificar 
+tu código sin tener miedo. 
 
 ## Desventajas
 Las pruebas de código son un problema combinado. Por ejemplo, para cada decisión boolean requerimos
