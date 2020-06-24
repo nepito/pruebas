@@ -36,10 +36,25 @@ The test code is considered a first class project artifact in that it is maintai
 
 ## TDD
 
-Michael Feathers
+Para 
+[Michael Feathers](https://learning.oreilly.com/library/view/working-effectively-with/0131177052/ch02.html) 
+las pruebas nos permiten tener un flujo de trabajo más amigable. Él plantea una situación en la que
+necesitamos modificar a una función complicada. Por suerte, encontramos las pruebas 
+para hacerlo. La última persona que tocó el código hizo muchas pruebas. Corremos las pruebas y 
+descubrimos que todas pasan. Vemos las pruebas y encontramos cuál es el comportamiento esperado de
+la función. Estamos listos para hacer un cambio, pero notamos que es difícil saber qué cambiar. El
+código no es claro, y preferimos entenderlo mejor antes de hacer el cambio. Las pruebas no agarran 
+todo, así que queremos hacer el código más claro para tener más confianza para hacer las 
+modificaciones. Lo que intentamos es que nadie más tenga que pasar por el mismo proceso que nosotros
+para entender el código. Eso sería un desperdicio de tiempo. Empezamos con refactorizar el código, 
+extraemos algunos métodos y movemos algunos condicionales. Hacemos otros pocos de cambios y 
+corremos las pruebas. Notamos que el cambio en las condicionales no fue el correcto porque las 
+pruebas fallaron, así que regresamos ese cambio. Cuando terminamos de refactorizar el código es
+mucho más claro. Entonces hacemos los cambios que queríamos en el inicio, agregamos más pruebas y
+verificamos el comportamiento del código. El siguiente programador que toque este código encontrará
+código más limpio y con pruebas que verifique su funcionalidad. 
 
-We need to make a change to a rather long, complicated function. Luckily, we find a set of unit tests in place for it. The last people who touched the code wrote a set of about 20 unit tests that thoroughly exercised it. We run them and discover that they all pass. Next we look through the tests to get a sense of what the code’s actual behavior is.We get ready to make our change, but we realize that it is pretty hard to figure out how to change it. The code is unclear, and we’d really like to understand it better before making our change. The tests won’t catch everything, so we want to make the code very clear so that we can have more confidence in our change. Aside from that, we don’t want ourselves or anyone else to have to go through the work we are doing to try to understand it. What a waste of time!We start to refactor the code a bit. We extract some methods and move some conditional logic. After every little change that we make, we run that little suite of unit tests. They pass almost every time that we run them. A few minutes ago, we made a mistake and inverted the logic on a condition, but a test failed and we recovered in about a minute. When we are done refactoring, the code is much clearer. We make the change we set out to make, and we are confident that it is right. We added some tests to verify the new behavior. The next programmers who work on this piece of code will have an easier time and will have tests that cover its functionality.
-(https://learning.oreilly.com/library/view/working-effectively-with/0131177052/ch02.html)
+
 
 [Michael Salaverry](https://dev.to/barakplasma/how-i-learned-to-stop-worrying-and-love-tdd-916) menciona cuáles son los puntos divertidos de TDD. Pero lo más importate para él 
 es poder modificar tu código sin tener miedo. 
